@@ -1,6 +1,6 @@
 ------------------------linux info-------------------------
 
-* /bin => all the binary files and programs 
+* /bin => all the binary files and programs .
 * /boot=> all the important boot file and programs and sensitive .
 * /dev => all the device files.
 * /etc => configuration files for your system.
@@ -26,3 +26,8 @@ apt list
 ```
 apt update 
 ```
+* search strings in files of linux // grap command is case sensitive to avoid this problem we can use -i before search string 
+```
+grep <string> <file name> 
+ ```
+ 
