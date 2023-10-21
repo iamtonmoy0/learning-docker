@@ -1,14 +1,14 @@
-build command
+* Currently Processing
 
 ```
-docker build -t <file name>
-
+docker ps
 ```
-list of image
+* All  processed image
 ```
-docker image ls
+docker ps -a
 ```
-run the image
+* run image in interactive mode
 ```
-docker run <image name>
+docker run -it ubuntu
 ```
+* 
